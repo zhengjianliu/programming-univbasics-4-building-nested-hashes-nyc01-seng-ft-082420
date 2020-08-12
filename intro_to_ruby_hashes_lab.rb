@@ -13,8 +13,11 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-  newHash[:railroads][:pieces] = 4 
-  
+  newHash = {
+     :railroads => {
+       pieces: 4
+     }
+  }
   newHash
 end
 
