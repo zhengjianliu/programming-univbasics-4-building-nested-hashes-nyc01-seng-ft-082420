@@ -70,7 +70,9 @@ def monopoly_with_fourth_tier
          shortline_railroad:{}
        }
      },
-     
+     :reading_railroad => {
+       
+     }
   }
   newHash
 
